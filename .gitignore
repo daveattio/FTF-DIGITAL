@@ -1,6 +1,19 @@
+# Fichiers systèmes
 .DS_Store
-node_modules/
-/backend/vendor
+Thumbs.db
+
+# Laravel (Backend)
+/backend/vendor/
+/backend/node_modules/
 /backend/.env
-/frontend/node_modules
+/backend/public/hot
+/backend/public/storage
+/backend/storage/*.key
+/backend/bootstrap/cache/*
+!/backend/bootstrap/cache/.gitignore
+
+# React (Frontend)
+/frontend/node_modules/
+/frontend/dist/
 /frontend/.env
+/frontend/.env.local
